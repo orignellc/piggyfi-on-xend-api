@@ -1,0 +1,18 @@
+{
+  "name": "piggyfi-api",
+  "version": "1.0.0",
+  "description": "PiggyFi API build on Xend SDK for Yield aggregation on savings",
+  "main": "index.js",
+  "repository": "git@github.com:orignellc/piggyfi-on-xend-api.git",
+  "author": "Origne LLC",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start-ganache": "ganache-cli --fork https://bsc-dataseed.binance.org --unlock 0x468c0cfae487a9de23e20d0b29a2835dc058cdf7"
+  },
+  "dependencies": {
+    "@xend-finance/web-sdk": "^0.2.0",
+    "axios": "^0.24.0",
+    "ethers": "^5.5.2"
+  }
+}
