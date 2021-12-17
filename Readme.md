@@ -5,6 +5,7 @@
 | /users  	                |  POST 	|   	                |   	                |
 | /user/{id}  	            |  GET 	    |   	                |   	                | 
 | /user/{id}  	            |  PUT 	    |   	                |   	                |
+| /user/auth  	            |  POST 	    |   	                |   	                |
 | - 	                    |   	    |   	                |   	                |
 | /vendor/create 	        |  POST 	|   	                | Auth | Admin	        |
 | /vendor/{id} 	            |  GET 	    |   	                | Auth  	            |
